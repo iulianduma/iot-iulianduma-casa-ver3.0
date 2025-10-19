@@ -9,3 +9,20 @@ Aplicație IoT containerizată cu Symfony + PostgreSQL + React, integrată cu pl
 - Export CSV/JSON
 - Autentificare simplă
 - Endpointuri REST pentru Arduino
+<<<<<<< HEAD
+=======
+
+## Lansare rapidă
+
+```bash
+docker compose up -d --build
+docker exec -it php bash
+composer install
+php bin/console doctrine:migrations:migrate
+npm install
+npm run dev
+```
+
+## Arduino
+Plăcile trimit date JSON către `/api/senzori` și pot primi comenzi prin `/api/relee/{deviceId}`.
+>>>>>>> e4cd063 (Initial commit: proiect IoT Symfony + Docker + React)
