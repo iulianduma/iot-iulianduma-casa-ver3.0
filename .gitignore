@@ -1,7 +1,35 @@
-/vendor/
-/node_modules/
-/.env
-/public/build/
+### Symfony ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
 /var/
-/.idea/
-/*.log
+/vendor/
+
+### PHPUnit ###
+/phpunit.xml
+/.phpunit.cache/
+
+### JWT ###
+/config/jwt/*.pem
+
+### Docker ###
+/docker/*.log
+*.log
+
+### Node & Webpack Encore (dacă folosești) ###
+/node_modules/
+/public/build/
+/assets/
+/webpack.config.js
+
+### IDE & OS ###
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
+
+### Composer ###
+composer.lock
