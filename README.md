@@ -10,7 +10,6 @@ Aplicație IoT containerizată cu Symfony + PostgreSQL + React, integrată cu pl
 - Autentificare simplă
 - Endpointuri REST pentru Arduino
 
-=======
 
 ## Lansare rapidă
 
